@@ -3,19 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Agrinho - Inovação e Sustentabilidade</title>
+    <title>Projeto Agrinho 2026 - Inovação e Sustentabilidade na Agricultura</title>
+    
+    <meta name="description" content="Pesquisa e soluções tecnológicas para o Concurso Agrinho 2026. Foco em sustentabilidade, uso consciente da água e agricultura local.">
+    <meta name="author" content="Cauã Ribeiro">
+    <meta name="robots" content="index, follow">
+
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body>
 
-    <!-- cabeçalho -->
     <header>
         <div class="container header-flex">
             <div class="logo">
-                <i class="fa-solid fa-leaf"></i> <span>Agrinho 2026</span>
+                <i class="fa-solid fa-leaf" aria-hidden="true"></i> 
+                <span>Agrinho 2026</span>
             </div>
-            <nav>
+            <nav aria-label="Navegação principal">
                 <ul>
                     <li><a href="#inicio">Início</a></li>
                     <li><a href="#sobre">O Projeto</a></li>
@@ -25,63 +31,60 @@
         </div>
     </header>
 
-    <!-- banner principal -->
-    <section id="inicio" class="hero">
-        <div class="container hero-content">
-            <h1>Cultivando um Futuro Sustentável</h1>
-            <p>Conectando a tecnologia do amanhã com a sabedoria da terra para transformar a agricultura local.</p>
-            <a href="#sobre" class="btn">Saiba Mais</a>
-        </div>
-    </section>
-
-   <!-- objetivos do trabalho -->
-    <section id="sobre" class="section-padding">
-        <div class="container grid-2">
-            <div class="sobre-texto">
-                <h2>Objetivo do Nosso Trabalho</h2>
-                <span class="linha-decorativa"></span>
-                <p>O foco desta pesquisa para o Concurso Agrinho é analisar como pequenas mudanças de hábito e o conhecimento teórico podem gerar um grande impacto no futuro do nosso planeta e da agricultura.</p>
-                <p>Através de estudos em sala de aula, buscamos conscientizar a comunidade escolar sobre a importância da sustentabilidade, mostrando que a preservação ambiental começa na teoria e se espalha através da educação.</p>
+    <main>
+        <section id="inicio" class="hero">
+            <div class="container hero-content">
+                <h1>Cultivando um Futuro Sustentável</h1>
+                <p>Conectando a tecnologia do amanhã com a sabedoria da terra para transformar a agricultura local.</p>
+                <a href="#sobre" class="btn">Saiba Mais</a>
             </div>
-            <div class="sobre-imagem">
-                <!-- Imagem que representa estudo/ideias (substitua se quiser) -->
-                <img src="plantio_sustentável.jpeg" alt="plantio_sustentável">
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!--soluções -->
-    <section id="solucoes" class="section-padding bg-claro">
-        <div class="container text-center">
-            <h2>Nossas Propostas</h2>
-            <p class="subtitulo">Ideias que transformam a rotina e o ecossistema do campo.</p>
-            <span class="linha-decorativa centralizada"></span>
-            
-            <div class="cards-grid">
-                <div class="card">
-                    <i class="fa-solid fa-droplet card-icon"></i>
-                    <h3>Uso da Água</h3>
-                    <p>Sistemas inteligentes de irrigação para evitar o desperdício de recursos hídricos.</p>
-                </div>
-                <div class="card">
-                    <i class="fa-solid fa-seedling card-icon"></i>
-                    <h3>Horta Orgânica</h3>
-                    <p>Incentivo ao cultivo sem agrotóxicos, garantindo alimentos mais saudáveis na merenda.</p>
-                </div>
-                <div class="card">
-                    <i class="fa-solid fa-mobile-screen-button card-icon"></i>
-                    <h3>Tecnologia Acessível</h3>
-                    <p>Aplicativos e sensores de baixo custo para monitoramento do solo.</p>
+        <section id="sobre" class="section-padding">
+            <div class="container grid-2">
+                <article class="sobre-texto">
+                    <h2>Objetivo do Nosso Trabalho</h2>
+                    <span class="linha-decorativa" aria-hidden="true"></span>
+                    <p>O foco desta pesquisa para o Concurso Agrinho é analisar como pequenas mudanças de hábito e o conhecimento teórico podem gerar um grande impacto no futuro do nosso planeta e da agricultura.</p>
+                    <p>Através de estudos em sala de aula, buscamos conscientizar a comunidade escolar sobre a importância da sustentabilidade, mostrando que a preservação ambiental começa na teoria e se espalha através da educação.</p>
+                </article>
+                <div class="sobre-imagem">
+                    <img src="plantio_sustentável.jpeg" alt="Plantação jovem crescendo sob manejo sustentável" loading="lazy" width="600" height="400">
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!--rodapé-->
+        <section id="solucoes" class="section-padding bg-claro">
+            <div class="container text-center">
+                <h2>Nossas Propostas</h2>
+                <p class="subtitulo">Ideias que transformam a rotina e o ecossistema do campo.</p>
+                <span class="linha-decorativa centralizada" aria-hidden="true"></span>
+                
+                <div class="cards-grid">
+                    <div class="card">
+                        <i class="fa-solid fa-droplet card-icon" aria-hidden="true"></i>
+                        <h3>Uso da Água</h3>
+                        <p>Sistemas inteligentes de irrigação para evitar o desperdício de recursos hídricos.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-seedling card-icon" aria-hidden="true"></i>
+                        <h3>Horta Orgânica</h3>
+                        <p>Incentivo ao cultivo sem agrotóxicos, garantindo alimentos mais saudáveis na merenda.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-mobile-screen-button card-icon" aria-hidden="true"></i>
+                        <h3>Tecnologia Acessível</h3>
+                        <p>Aplicativos e sensores de baixo custo para monitoramento do solo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
     <footer>
         <div class="container footer-content">
-            <p>&copy; 2026 Projeto Agrinho - Todos os direitos reservados.</p>
-            <p>Criado com <i class="fa-solid fa-heart" style="color: #e74c3c;"></i> por Cauã Ribeiro.</p>
+            <p>&copy; 2026 Projeto Agrinho - Alguns direitos reservados.</p>
+            <p>Criado com <i class="fa-solid fa-heart" style="color: #e74c3c;" aria-label="amor"></i> por <strong>Cauã Ribeiro</strong>.</p>
         </div>
     </footer>
 
