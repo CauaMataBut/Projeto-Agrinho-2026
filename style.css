@@ -26,6 +26,7 @@ body {
     line-height: 1.6;
     background-color: #ffffff;
     -webkit-font-smoothing: antialiased; 
+}
 
 /* Componentes reutilizáveis*/
 .container {
@@ -283,10 +284,4 @@ footer strong {
     .hero {
         padding-top: 120px; 
     }
-}
-
-/* Desativa animações pesadas se o usuário configurou o sistema para reduzir movimento */
-@media (prefers-reduced-motion: reduce) {
-    html { scroll-behavior: auto; }
-    *, .card, .btn, img, nav ul li a::after { transition: none !important; transform: none !important; }
 }
